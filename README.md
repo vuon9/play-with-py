@@ -2,6 +2,9 @@
 
 ## Common commands
 ```bash
+python -m venv .
+chmod +x ./bin/activate ./bin/deactivate
+
 # Activate the virtual environment
 source .venv/bin/activate.fish
 source .venv/bin/deactivate.fish
