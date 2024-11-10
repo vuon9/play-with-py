@@ -2,15 +2,14 @@
 
 ## Common commands
 ```bash
-python -m venv .
-chmod +x ./bin/activate ./bin/deactivate
-
-# Activate the virtual environment
-source .venv/bin/activate.fish
-source .venv/bin/deactivate.fish
+python -m venv venv
+chmod +x venv/bin/*
+source venv/bin/activate
 
 # Install the dependencies
 pip install -r requirements.txt
+
+# Install a specific package
 pip install <package-name>
 
 # Update the requirements.txt file
